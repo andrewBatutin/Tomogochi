@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A47A121322C0F4B000660880 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A121222C0F4B000660880 /* main.swift */; };
+		A47A121A22C0F4BF00660880 /* Tomogochi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47A121922C0F4BF00660880 /* Tomogochi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A47A120F22C0F4B000660880 /* Tomogochi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tomogochi; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47A121222C0F4B000660880 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A47A121922C0F4BF00660880 /* Tomogochi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tomogochi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A47A121222C0F4B000660880 /* main.swift */,
+				A47A121922C0F4BF00660880 /* Tomogochi.swift */,
 			);
 			path = Tomogochi;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47A121322C0F4B000660880 /* main.swift in Sources */,
+				A47A121A22C0F4BF00660880 /* Tomogochi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

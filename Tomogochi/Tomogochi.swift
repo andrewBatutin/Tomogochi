@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  File.swift
 //  Tomogochi
 //
 //  Created by Andrey Batutin on 6/24/19.
@@ -8,8 +8,11 @@
 
 import Foundation
 
-
-let t = Tomogochi(name: "Tommy")
-
-print("Hello, Tomogochi \(t.name) !")
-
+class Tomogochi {
+    let name:String
+    
+    init(name of:String){
+        self.name = of
+    }
+    
+}
