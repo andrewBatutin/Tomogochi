@@ -15,4 +15,9 @@ class Tomogochi {
         self.name = of
     }
     
+    
+    deinit {
+        print("by \(name)")
+    }
+    
 }

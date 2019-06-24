@@ -9,7 +9,24 @@
 import Foundation
 
 
-let t = Tomogochi(name: "Tommy")
 
-print("Hello, Tomogochi \(t.name) !")
 
+func run(){
+    let t = Tomogochi(name: "Tommy")
+    print("Hello, Tomogochi \(t.name) !")
+}
+
+
+do{
+
+    print("life is born")
+    var count = 10
+
+    while count > 0{
+   
+        run()
+        sleep(1)
+        count -= 1
+    }
+    print("life is killed")
+}
